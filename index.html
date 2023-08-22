@@ -12,11 +12,28 @@
         p {
             font-size: 16px; /* Adjust the paragraph font size as needed */
         }
+        #contactButton {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            font-size: 18px; /* Adjust the button font size */
+            margin-top: 20px; /* Add space between the content and the button */
+        }
     </style>
     <title>Faerwald</title>
 </head>
 <body>
     <h1>Jason Sokaris</h1>
     <p>I'm developing vector potential communication and precognitive AI, technology capable of foreseeing the unforeseeable and preventing the unacceptable events that transcend traditional foresight.</p>
+    
+    <button id="contactButton">Contact Me</button>
+    
+    <script>
+        document.getElementById("contactButton").addEventListener("click", function() {
+            window.location.href = "mailto:jason@faerwald.org";
+        });
+    </script>
 </body>
 </html>
