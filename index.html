@@ -18,7 +18,7 @@
       text-align: center;
     }
     h1 { font-size: 2rem; margin-bottom: 0.3em; }
-    p { color: #9fb0c7; margin:0.2em 0; }
+    p { color: #9fb0c7; margin:0.4em 0; max-width: 600px; }
     .pillars {
       margin-top: 1.2em;
       display: grid;
@@ -30,6 +30,26 @@
       background: rgba(255,255,255,0.05);
       border: 1px solid rgba(255,255,255,0.08);
     }
+    .button {
+      display: inline-block;
+      margin-top: 1.5em;
+      padding: 10px 20px;
+      background-color: #222;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 16px;
+      transition: background-color 0.3s ease;
+    }
+    .button:hover {
+      background-color: #444;
+    }
+    .quote {
+      margin-top: 2em;
+      font-style: italic;
+      color: #cfd8e3;
+      max-width: 700px;
+    }
   </style>
 </head>
 <body>
@@ -40,6 +60,9 @@
     <div>Software</div>
     <div>Hardware</div>
   </div>
+
+  <p class="quote">“With that disappearance, he knew, even as Noÿs moved slowly into his arms, came the end, the final end of Eternity — and the beginning of Infinity.”<br>— <em>The End of Eternity</em> (Isaac Asimov)</p>
+
+  <a href="https://faerwald.org/Ideas" class="button">Notes</a>
 </body>
 </html>
-
